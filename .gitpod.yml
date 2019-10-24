@@ -5,3 +5,5 @@ ports:
   onOpen: open-browser
 - port: 5000
   onOpen: notify
+tasks:
+- command: conda activate base
